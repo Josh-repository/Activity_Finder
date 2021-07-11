@@ -30,31 +30,31 @@ A similar movie name (string).
 The list of genres (string list).
 
 ## Script for Restaurant Happy path
-User: 	Hi Bot,
-Bot: 	Hi Aditya, What would you like to do today? Movie or Restaurant!!!!
-User: 	I am hungry.
-Bot: 	Hi Aditya, What kind of food you want?
-User:	I want sushi.
-Bot:	These are some of the best restaurants with ratings I would recommend for sushi: Blue Ginger Asian Fusion Bistro with rating 4.35, Mr Sushi with rating 5.95, Ronin Sushi with rating 5.29, Sushi.com with rating 5.95, Yoshi's Japanese Restaurant with rating 4.64.
-User: 	Cool thanks.
-Bot:	You are always welcome, Aditya.
-User:	Bye.
-Bot:	Bye Bye Aditya, See you soon.
+User: 	Hi Bot, <br />
+Bot: 	Hi Aditya, What would you like to do today? Movie or Restaurant!!!!<br />
+User: 	I am hungry.<br />
+Bot: 	Hi Aditya, What kind of food you want?<br />
+User:	I want sushi.<br />
+Bot:	These are some of the best restaurants with ratings I would recommend for sushi: Blue Ginger Asian Fusion Bistro with rating 4.35, Mr Sushi with rating 5.95, Ronin Sushi with rating 5.29, Sushi.com with rating 5.95, Yoshi's Japanese Restaurant with rating 4.64.<br />
+User: 	Cool thanks.<br />
+Bot:	You are always welcome, Aditya.<br />
+User:	Bye.<br />
+Bot:	Bye Bye Aditya, See you soon.<br />
 
 ## Script for Movie Happy path
-User: 	Hi Bot,
-Bot: 	Hi Aditya, What would you like to do today? Movie or Restaurant!!!!
-User: 	Suggest me some movies.
-Bot:	Give me the title of a movie the suggestion should be similar to, if you wish.
-User: 	Toy Story.
-Bot: 	Are there genres that you would be more interested in? We have action, horror, drama, romance, comedy, thriller, documentary, adventure, fantasy, history, sci-fi.
-User: 	Comedy.
+User: 	Hi Bot,<br />
+Bot: 	Hi Aditya, What would you like to do today? Movie or Restaurant!!!!<br />
+User: 	Suggest me some movies.<br />
+Bot:	Give me the title of a movie the suggestion should be similar to, if you wish.<br />
+User: 	Toy Story.<br />
+Bot: 	Are there genres that you would be more interested in? We have action, horror, drama, romance, comedy, thriller, documentary, adventure, fantasy, history, sci-fi.<br />
+User: 	Comedy.<br />
 Bot: These are the movies you might like: Toy Story 2 (1999), A Bug's Life (1998), Monsters, Inc. (2001), Foul Hunting (1947), The Fox and the Hound 2 (2006), Finding Nemo (2003), Lilo & Stitch 2: Stitch has a Glitch (2005), Big Hero 6 (2014), Ice Age (2002), Minions (2015), Brother Bear 2 (2006).
-User: Cool thanks.
-Bot:  You are always welcome, Aditya.
+User: Cool thanks.<br />
+Bot:  You are always welcome, Aditya.<br />
 
 # Demo:
 
-
+[![Demo](https://images.unsplash.com/photo-1611162616475-46b635cb6868?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8eW91dHViZSUyMHRodW1ibmFpbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80)](https://youtu.be/R7uk9QRloEQ "Click to Watch!")
 # Conclusion:
 Upon the completion of this project, our team successfully implemented each of the proposed functionalities for the creation of the Activity Finder adaptive application. The project uses various datasets, namely the Open Weather API, the MovieLens dataset, the Yelp dataset and the Tourist Places dataset for the development of the recommendation engine. The chatbot component serves as a unique point of information gathering in our application through engaging with the user and asking relevant questions for better adaptations. The recommendation approaches implemented are: a Content-Based Approach which uses TF-IDF to analyse the dataset and extract keywords from items, and Collaborative Filtering Approach which is based on what other similar users have liked which uses Singular Value Decomposition (SVD). In addition, we collected the geographical location of the logged-in users, through which we recommended tourist attractions nearby to visit depending on the weather. The architecture of our application includes: the front-end which uses the React framework, the Central Server which is based on Node.js and Heroku with the express framework, and the Chatbot and Recommendation Engines, both using Flask. This architecture allows for diverse features which provide users with a good experience for finding activities and restaurants in Dublin. 
